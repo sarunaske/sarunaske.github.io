@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report 1 - My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen p-4 flex flex-col items-center">
+
+    <header class="w-full max-w-5xl mb-6 flex justify-start">
+        <a href="index.html" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 rounded-lg transition duration-300">
+            &larr; Back to Portfolio
+        </a>
+    </header>
+
+    <main class="w-full max-w-5xl bg-white p-6 rounded-lg shadow-lg">
+        <h1 class="text-3xl font-bold text-gray-800 mb-4 text-center">Looker Studio Report 1: [Give your report a descriptive name]</h1>
+        
+        <!-- Looker Studio embed goes here -->
+        <!-- IMPORTANT: Replace the src attribute with your actual Looker Studio embed URL -->
+        <div class="w-full h-[600px] rounded-lg overflow-hidden">
+            <iframe
+                class="w-full h-full border-none"
+                src="https://datastudio.google.com/embed/reporting/LOOKER_REPORT_ID/page/p_PAGE_ID"
+                frameborder="0"
+                style="border:0"
+                allowfullscreen
+                sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+            ></iframe>
+        </div>
+    </main>
+
+</body>
+</html>
