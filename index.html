@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First GitHub Page</title>
+    <title>My Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,10 +14,25 @@
         }
     </style>
 </head>
-<body class="bg-gray-100 flex items-center justify-center h-screen">
-    <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-        <h1 class="text-4xl font-bold text-gray-800 mb-4">Hello, world!</h1>
-        <p class="text-gray-600">This is my first GitHub Pages website.</p>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-4">
+
+    <div class="bg-white p-8 rounded-lg shadow-lg text-center max-w-2xl w-full">
+        <h1 class="text-5xl font-extrabold text-gray-800 mb-4">My Data Projects</h1>
+        <p class="text-lg text-gray-600 mb-8">
+            Hello! I'm a passionate data professional. This portfolio showcases some of my projects, including two reports built with Looker Studio. Feel free to explore and get in touch!
+        </p>
+        
+        <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center">
+            <!-- Link to Report 1 page -->
+            <a href="report1.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 transform hover:scale-105">
+                View Report 1
+            </a>
+            <!-- Link to Report 2 page -->
+            <a href="report2.html" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 transform hover:scale-105">
+                View Report 2
+            </a>
+        </div>
     </div>
+
 </body>
 </html>
